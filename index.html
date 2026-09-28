@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Elise & Sadık — 19.12.2026</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- PAGE D'ENTRÉE -->
+
+  <section id="intro" class="intro">
+
+    <div class="gold-line top-line"></div>
+
+    <div class="intro-content">
+
+      <p class="wedding-small-date">
+        19 • 12 • 2026
+      </p>
+
+      <h1>
+        Elise
+        <span>&</span>
+        Sadık
+      </h1>
+
+      <p id="introWelcome" class="intro-welcome">
+        Bienvenue dans notre histoire
+      </p>
+
+      <p class="choose-language">
+        Choisissez votre langue
+      </p>
+
+      <div class="languages">
+
+        <button class="language active" data-lang="fr">
+          🇫🇷
+          <span>FR</span>
+        </button>
+
+        <button class="language" data-lang="tr">
+          🇹🇷
+          <span>TR</span>
+        </button>
+
+        <button class="language" data-lang="ku">
+          ☀️
+          <span>KU</span>
+        </button>
+
+        <button class="language" data-lang="de">
+          🇩🇪
+          <span>DE</span>
+        </button>
+
+        <button class="language" data-lang="en">
+          🇬🇧
+          <span>EN</span>
+        </button>
+
+      </div>
+
+
+      <!-- COUPLE -->
+
+      <div id="coupleButton" class="couple-zone">
+
+        <div id="couple" class="couple">
+
+          <!-- MARIÉE -->
+
+          <div class="bride person">
+
+            <div class="head">
+              <div class="bride-hair"></div>
+            </div>
+
+            <div class="bride-body">
+              <div class="bride-dress"></div>
+            </div>
+
+            <div class="veil"></div>
+
+          </div>
+
+
+          <div class="heart-between">
+            ♥
+          </div>
+
+
+          <!-- MARIÉ -->
+
+          <div class="groom person">
+
+            <div class="head">
+              <div class="groom-hair"></div>
+            </div>
+
+            <div class="groom-body">
+
+              <div class="shirt"></div>
+
+              <div class="bowtie">
+                ◆
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <p id="enterText" class="enter-text">
+          Touchez les mariés pour entrer
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="gold-line bottom-line"></div>
+
+  </section>
+
+
+
+  <!-- SITE PRINCIPAL -->
+
+  <main id="website" class="website hidden">
+
+    <!-- NAVIGATION -->
+
+    <nav class="navbar">
+
+      <a href="#home" class="nav-logo">
+        E <span>&</span> S
+      </a>
+
+      <div class="nav-links">
+
+        <a href="#home" data-i18n="navHome">
+          Accueil
+        </a>
+
+        <a href="#programme" data-i18n="navProgramme">
+          Programme
+        </a>
+
+        <a href="#address" data-i18n="navAddress">
+          Adresse
+        </a>
+
+        <a href="#guestbook" data-i18n="navGuestbook">
+          Livre d'or
+        </a>
+
+      </div>
+
+      <div class="mini-languages">
+
+        <button data-lang="fr">🇫🇷</button>
+        <button data-lang="tr">🇹🇷</button>
+        <button data-lang="ku">☀️</button>
+        <button data-lang="de">🇩🇪</button>
+        <button data-lang="en">🇬🇧</button>
+
+      </div>
+
+    </nav>
+
+
+
+    <!-- ACCUEIL -->
+
+    <section id="home" class="home-section">
+
+      <div class="home-decoration">
+        ✦
+      </div>
+
+      <p class="little-title" data-i18n="weMarry">
+        Nous nous marions
+      </p>
+
+      <h2>
+        Elise
+        <span>&</span>
+        Sadık
+      </h2>
+
+      <p class="home-date" data-i18n="weddingDate">
+        19 décembre 2026
+      </p>
+
+      <div class="gold-separator">
+        <span></span>
+        ♥
+        <span></span>
+      </div>
+
+
+      <!-- COMPTE À REBOURS -->
+
+      <div class="countdown">
+
+        <div class="count-box">
+          <strong id="days">00</strong>
+          <span data-i18n="days">Jours</span>
+        </div>
+
+        <div class="count-box">
+          <strong id="hours">00</strong>
+          <span data-i18n="hours">Heures</span>
+        </div>
+
+        <div class="count-box">
+          <strong id="minutes">00</strong>
+          <span data-i18n="minutes">Minutes</span>
+        </div>
+
+        <div class="count-box">
+          <strong id="seconds">00</strong>
+          <span data-i18n="seconds">Secondes</span>
+        </div>
+
+      </div>
+
+      <a href="#programme" class="discover">
+        ↓
+      </a>
+
+    </section>
+
+
+
+    <!-- PROGRAMME -->
+
+    <section id="programme" class="section programme-section">
+
+      <p class="section-small" data-i18n="ourDay">
+        Notre journée
+      </p>
+
+      <h3 data-i18n="programmeTitle">
+        Programme
+      </h3>
+
+      <div class="timeline">
+
+        <!-- 14H -->
+
+        <div class="timeline-item">
+
+          <div class="time">
+            14:00
+          </div>
+
+          <div class="timeline-dot">
+            ♥
+          </div>
+
+          <div class="timeline-content">
+
+            <h4>
+              Gelin Çıkarma
+            </h4>
+
+            <p data-i18n="gelinText">
+              La traditionnelle sortie de la mariée entourée de nos familles.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- 17H -->
+
+        <div class="timeline-item">
+
+          <div class="time">
+            17:00
+          </div>
+
+          <div class="timeline-dot">
+            ✦
+          </div>
+
+          <div class="timeline-content">
+
+            <h4 data-i18n="guestArrival">
+              Accueil des invités
+            </h4>
+
+            <p data-i18n="guestArrivalText">
+              Nous aurons le plaisir de vous accueillir pour célébrer cette journée.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- 18H -->
+
+        <div class="timeline-item">
+
+          <div class="time">
+            18:00
+          </div>
+
+          <div class="timeline-dot">
+            ♥
+          </div>
+
+          <div class="timeline-content">
+
+            <h4 data-i18n="celebration">
+              Célébration
+            </h4>
+
+            <p data-i18n="celebrationText">
+              Entrée des mariés, repas, musique et fête.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- 23H -->
+
+        <div class="timeline-item">
+
+          <div class="time">
+            23:00
+          </div>
+
+          <div class="timeline-dot">
+            ✦
+          </div>
+
+          <div class="timeline-content">
+
+            <h4>
+              Kına
+            </h4>
+
+            <p data-i18n="kinaText">
+              La traditionnelle cérémonie du henné.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ADRESSE -->
+
+    <section id="address" class="address-section">
+
+      <p class="section-small gold" data-i18n="meetHere">
+        Rendez-vous
+      </p>
+
+      <h3>
+        Royal Events
+      </h3>
+
+      <div class="gold-separator">
+        <span></span>
+        ✦
+        <span></span>
+      </div>
+
+      <p class="address-text">
+        77731 Willstätt
+        <br>
+        Allemagne
+      </p>
+
+      <a
+        href="https://www.google.com/maps/search/?api=1&query=Royal+Events+77731+Willstatt"
+        target="_blank"
+        class="gold-button"
+        data-i18n="route"
+      >
+        Voir l'itinéraire
+      </a>
+
+    </section>
+
+
+
+    <!-- LIVRE D'OR -->
+
+    <section id="guestbook" class="section guestbook-section">
+
+      <p class="section-small" data-i18n="fewWords">
+        Quelques mots pour nous
+      </p>
+
+      <h3 data-i18n="guestbookTitle">
+        Livre d'or
+      </h3>
+
+      <p class="guestbook-description" data-i18n="guestbookDescription">
+        Glissez votre message dans notre enveloppe.
+      </p>
+
+
+      <div class="envelope-wrapper">
+
+        <div id="envelope" class="envelope">
+
+          <div class="envelope-back"></div>
+
+          <div class="letter">
+
+            <form
+              id="guestbookForm"
+              action="https://formsubmit.co/sadik.sk@outlook.fr"
+              method="POST"
+            >
+
+              <input
+                type="hidden"
+                name="_subject"
+                value="Nouveau message - Livre d'or Elise & Sadık"
+              >
+
+              <input
+                type="hidden"
+                name="_captcha"
+                value="false"
+              >
+
+              <input
+                type="hidden"
+                name="_template"
+                value="table"
+              >
+
+              <input
+                id="guestName"
+                type="text"
+                name="Prénom"
+                placeholder="Votre prénom"
+                required
+              >
+
+              <textarea
+                id="guestMessage"
+                name="Message"
+                placeholder="Votre message..."
+                required
+              ></textarea>
+
+            </form>
+
+          </div>
+
+
+          <div class="envelope-left"></div>
+
+          <div class="envelope-right"></div>
+
+          <div class="envelope-bottom"></div>
+
+          <div class="envelope-flap"></div>
+
+          <div class="wax-seal">
+            E&S
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- BOUTON EN DEHORS DE L'ENVELOPPE -->
+
+      <button
+        type="submit"
+        form="guestbookForm"
+        class="send-letter outside-button"
+        data-i18n="send"
+      >
+        Envoyer mon message ♥
+      </button>
+
+
+      <p
+        id="sendConfirmation"
+        class="send-confirmation"
+      >
+        ♥ Merci pour votre message ♥
+      </p>
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+      <p>
+        Elise <span>&</span> Sadık
+      </p>
+
+      <small>
+        19 • 12 • 2026
+      </small>
+
+    </footer>
+
+  </main>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
